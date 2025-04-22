@@ -1,0 +1,34 @@
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.nav.link-active {
+    color: rgb(0, 0, 0);
+}
+
+.banner-container {
+    width: 100vw;
+    height: 200px;
+    overflow: hidden;
+    
+}
+
+#banner-hearder {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.column {
+    width: 280px;
+    float: left;
+    padding: 5px;
+    
+}
+
+.row {
+    object-fit: cover;
+    display: table;
+  }
