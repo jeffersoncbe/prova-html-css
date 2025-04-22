@@ -22,7 +22,8 @@
 }
 
 .column {
-    width: 280px;
+    width: 200px;
+    height: 220px;
     float: left;
     padding: 5px;
     
@@ -30,5 +31,7 @@
 
 .row {
     object-fit: cover;
-    display: table;
+    display: block;
+    position: relative;
+    
   }
