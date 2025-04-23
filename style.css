@@ -26,6 +26,7 @@
     height: 220px;
     float: left;
     padding: 5px;
+   
     
 }
 
@@ -34,4 +35,15 @@
     display: block;
     position: relative;
     
+  }
+
+  .carousel-item {
+    width: 700px;
+    position: center;
+    margin: auto;
+    height: 380px;
+    overflow: hidden;
+    object-fit: cover;
+    
+
   }
