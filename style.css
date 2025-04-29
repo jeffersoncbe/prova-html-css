@@ -50,6 +50,35 @@
 
   }
 
+  .cards-container {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding: 20px;
+    
+  }
+
+  .card {
+    width: 18rem;
+    margin: 20px; 
+
+
+  }
+
+  .card-img-top {
+    justify-content: center;
+    color: coral;
+    font-size: 5rem; 
+ 
+  }
+
+  .card-text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ 
+
+  }
+
   .carousel-item {
     width: 700px;
     position: center;
@@ -61,16 +90,4 @@
 
   }
 
-  .card-img-top {
-    justify-content: center;
-    color: coral;
-    font-size: 5rem; 
-    
-
-  }
-
-  .card-text {
-    font-family: fantasy;
-    justify-content: center;
-
-  }
+  
