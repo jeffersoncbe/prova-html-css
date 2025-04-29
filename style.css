@@ -11,6 +11,7 @@
     height: 200px;
     overflow: hidden;
     
+    
 }
 
 #banner-hearder {
@@ -19,22 +20,34 @@
     object-fit: cover;
     object-position: center;
     
+    
+
 }
 
 .column {
     width: 200px;
     height: 220px;
     float: left;
-    padding: 5px;
-   
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    border-radius: 10%;
     
 }
 
 .row {
     object-fit: cover;
-    display: block;
-    position: relative;
+    display: flex;
+    position: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 10px;  
+    margin: 0 auto;  
+    max-width: 1100px;
+    overflow-x: auto;
     
+
   }
 
   .carousel-item {
@@ -45,5 +58,19 @@
     overflow: hidden;
     object-fit: cover;
     
+
+  }
+
+  .card-img-top {
+    justify-content: center;
+    color: coral;
+    font-size: 5rem; 
+    
+
+  }
+
+  .card-text {
+    font-family: fantasy;
+    justify-content: center;
 
   }
